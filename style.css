@@ -22,6 +22,10 @@ header {
     background-color: black;
 }
 
+header title {
+    font-weight: bold;
+}
+
 header img {
     margin-left: 15px;
     margin-right: 155px;
@@ -55,6 +59,10 @@ main {
     margin-top: 60px;
 }
 
+main h2 {
+    font-family: STHeiti;
+}
+
 section {
     padding: 50px 150px;
 }
@@ -63,6 +71,7 @@ section {
 #description {
     background: #F1F1F1;
     padding-top: 20px;
+    font-weight: bold;
 }
 
 .description img {
@@ -74,6 +83,10 @@ section {
 
 .description-p2 {
     clear: both;
+}
+
+.relationship {
+    font-weight: bold;
 }
 
 .relationship img {
@@ -89,5 +102,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     background-color: #A9A9A9;
 } 
