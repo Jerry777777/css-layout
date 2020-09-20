@@ -7,6 +7,10 @@ html {
     line-height: 1.5em;
 }
 
+body {
+    position: absolute;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -16,7 +20,7 @@ header {
     background-color: black;
 }
 
-img {
+header img {
     margin-left: 15px;
     margin-right: 155px;
     border-radius: 50%;
@@ -44,3 +48,35 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    padding: 50px 150px;
+}
+
+
+#description {
+    background: #F1F1F1;
+
+}
+
+.description img {
+    float: left;
+    width: 450px;
+    height: 500px;
+    padding: 20px 20px 20px 0px;
+}
+
+.description-p2 {
+    clear: both;
+}
+
+.relationship img {
+    float: right;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+} 
